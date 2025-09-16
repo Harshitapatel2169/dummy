@@ -1,10 +1,14 @@
 #include<stdio.h>
-int main(){
-    int num=1;
-    for(int i=0;i<3;i++){
-        for(int j=0;j<=3;j++){
-            printf("%d",num++);
-        }
-        printf("\n");
-    }
+    int sum(){
+        int a=1;
+        int b=2;
+        int c=a+b;
+        return c;
 }
+int main(){
+    int data=sum();
+    printf("%d",data);
+}
+
+
+
